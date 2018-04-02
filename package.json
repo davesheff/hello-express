@@ -2,7 +2,7 @@
   "name": "hello-express",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "jest"
   },
@@ -20,6 +20,11 @@
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.10.0",
-    "jest": "^22.4.3"
+    "jest": "^22.4.3",
+    "node-mocks-http": "^1.5.8"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
   }
 }
