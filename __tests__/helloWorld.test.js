@@ -12,3 +12,4 @@ it('returns a Hello World Object', () => {
   helloWorld(request, response);
   expect(response._getData().message).toBe('Hello World!');
 });
+
